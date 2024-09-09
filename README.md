@@ -50,3 +50,10 @@ Decrypt an encrypted file:
 
 
 python3 invincible.py -t encrypted_file.cripto -w wordlist.txt
+
+in C:
+
+complie code: 
+gcc -o invencible invencible.c -lssl -lcrypto -lzip 
+execute code: 
+./invencible -t teste.zip
